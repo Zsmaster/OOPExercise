@@ -8,7 +8,7 @@ A feladat megoldása során a következőkkel találkozhatunk:
   - konstruktor
   - destruktor
   - metódus felülírás
-  - metúdus túlterhelés (Polimorfizmus - A terület számítására több módszer is implementálható)
+  - metódus túlterhelés (Polimorfizmus - A terület számítására több módszer is implementálható)
 - enumeráció létrehozás
 - generikus lista használata
 - generikus függvény használata
