@@ -1,6 +1,6 @@
 # OOPExercise
 
-Csakorló feladat kezdő programozók számára.
+Gyakorló feladat kezdő programozók számára.
 
 A feladat megoldása során a következőkkel találkozhatunk:
 - interfész létrehozás
