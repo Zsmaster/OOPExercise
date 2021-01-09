@@ -1,6 +1,6 @@
 ﻿namespace OOPExercise_Console.Models
 {
-    public class Triangle
+    public class Triangle : IShape
     {
         static public int TriangleCounter { get; set; } = 0;
         public ShapeSize Size { get; private set; }
@@ -22,7 +22,7 @@
 
         public override string ToString()
         {
-            return $"This is an {Size} {GetType().Name}.";
+            return $"This is an {Size} ({(int)Size}*{(int)Size}) {GetType().Name}.";
         }
     }
 }

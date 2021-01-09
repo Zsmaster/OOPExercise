@@ -22,7 +22,7 @@
 
         public override string ToString()
         {
-            return $"This is an {Size} {GetType().Name}.";
+            return $"This is an {Size} ({(int)Size}*{(int)Size}) {GetType().Name}.";
         }
     }
 }
