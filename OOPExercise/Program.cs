@@ -30,6 +30,7 @@ namespace OOPExercise
             Console.WriteLine("5. Amount of area");
             Console.WriteLine("6. Number of items by type");
             Console.WriteLine("7. First item by type");
+            Console.WriteLine("8. Save to text file");
             Console.WriteLine("9. Exit");
 
             menuItem = Console.ReadLine();
@@ -92,6 +93,12 @@ namespace OOPExercise
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine($"First rectangle: {Function.FirstShapeInList<Rectangle>(shapes)}");
                     Console.WriteLine($"First triangle: {Function.FirstShapeInList<Triangle>(shapes)}");
+                    Console.WriteLine();
+                    break;
+                case "8":
+                    Function.SaveToTextFile(shapes);
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine($"The list has been successfully saved.");                    
                     Console.WriteLine();
                     break;
                 default:
