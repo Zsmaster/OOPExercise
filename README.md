@@ -15,3 +15,4 @@ A feladat megoldása során a következőkkel találkozhatunk:
 - enumeráció létrehozás
 - generikus lista használata
 - generikus függvény használata
+- LINQ
