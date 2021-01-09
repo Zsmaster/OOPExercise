@@ -10,7 +10,7 @@ A feladat megoldása során a következőkkel találkozhatunk:
   - tag függvények (Egységbezárás)
   - konstruktor
   - destruktor
-  - metódus felülírás
+  - metódus felüldefinálás
   - metódus túlterhelés (Több alakúság - A terület számítására több módszer is implementálható)
 - enumeráció létrehozás
 - generikus lista használata
